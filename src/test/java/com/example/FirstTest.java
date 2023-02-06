@@ -9,13 +9,13 @@ public class FirstTest {
 
     @Test
     public void testMultiply() {
-        int add = first.multiply(2, 6);
+        int add = First.multiply(2, 6);
         assertEquals(12, add);
     }
 
     @Test
     public void testLinkStrings() {
-        String linkedStrings = first.linkStrings("one", "two");
+        String linkedStrings = First.linkStrings("one", "two");
         assertEquals("onetwo", linkedStrings);
     }
 }
