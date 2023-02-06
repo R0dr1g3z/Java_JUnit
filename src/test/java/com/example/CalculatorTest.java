@@ -32,4 +32,14 @@ public class CalculatorTest {
     public void testSub() {
         assertEquals(5, Calculator.sub(10, 5));
     }
+
+    @Test
+    public void testFactorial() {
+        assertEquals(24, Calculator.factorial(4));
+    }
+
+    @Test
+    public void testDelta() {
+        assertEquals(9, Calculator.delta(2, 5, 2), 0.1);
+    }
 }
